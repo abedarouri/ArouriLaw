@@ -190,79 +190,13 @@
 </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>الخدمات | مكتب العاروري للمحاماة</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header class="header">
-  <div class="container">
-    <h1>مكتب العاروري للمحاماة</h1>
-    <nav>
-      <a href="index.html">الرئيسية</a> |
-      <a href="about.html">من نحن</a> |
-      <a href="services.html">الخدمات</a> |
-      <a href="consultation.html">طلب استشارة</a> |
-      <a href="privacy.html">الخصوصية</a>
-    </nav>
-  </div>
-</header>
-
-<section class="container">
-  <h2>الخدمات القانونية</h2>
-  <ul>
-    <li>الاستشارات القانونية</li>
-    <li>أعمال المحاماة والتمثيل القانوني</li>
-    <li>التحكيم والوساطة</li>
-    <li>الوساطة العقارية</li>
-    <li>إدارة المشاريع القانونية</li>
-    <li>صياغة العقود والوثائق القانونية</li>
-  </ul>
-</section>
-
-<footer class="footer">
-  <p>© جميع الحقوق محفوظة – مكتب العاروري للمحاماة</p>
-</footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>الخدمات | مكتب العاروري للمحاماة</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header class="header">
-  <div class="container">
-    <h1>مكتب العاروري للمحاماة</h1>
-    <nav>
-      <a href="index.html">الرئيسية</a> |
-      <a href="about.html">من نحن</a> |
-      <a href="services.html">الخدمات</a> |
-      <a href="consultation.html">طلب استشارة</a> |
-      <a href="privacy.html">الخصوصية</a>
-    </nav>
-  </div>
-</header>
-
-<section class="container">
-  <h2>الخدمات القانونية</h2>
-  <ul>
-    <li>الاستشارات القانونية</li>
-    <li>أعمال المحاماة والتمثيل القانوني</li>
-    <li>التحكيم والوساطة</li>
-    <li>الوساطة العقارية</li>
-    <li>إدارة المشاريع القانونية</li>
-    <li>صياغة العقود والوثائق القانونية</li>
-  </ul>
-</section>
-
-<footer class="footer">
-  <p>© جميع الحقوق محفوظة – مكتب العاروري للمحاماة</p>
-</footer>
-</body>
-</html>
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; color:#0b1c2d; }
+.container { width:90%; max-width:1200px; margin:auto; }
+.header, .footer { background:#0b1c2d; color:#fff; padding:15px 0; text-align:center; }
+.btn { display:inline-block; padding:10px 20px; background:#0b1c2d; color:#fff; text-decoration:none; border-radius:4px; margin:5px 0; }
+.services-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; padding:40px 0; }
+.service-card { background:#fff; padding:20px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.08); }
+.contact { background:#fff; padding:40px 0; }
+.contact a { color:#0b1c2d; text-decoration:none; font-weight:bold; }
+form input, form textarea { width:100%; padding:8px; margin:5px 0; border-radius:4px; border:1px solid #ccc; }
+form button { background:#0b1c2d; color:#fff; padding:10px 15px; border:none; border-radius:4px; cursor:pointer; }
