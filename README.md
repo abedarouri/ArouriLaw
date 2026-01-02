@@ -200,3 +200,9 @@ body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; 
 .contact a { color:#0b1c2d; text-decoration:none; font-weight:bold; }
 form input, form textarea { width:100%; padding:8px; margin:5px 0; border-radius:4px; border:1px solid #ccc; }
 form button { background:#0b1c2d; color:#fff; padding:10px 15px; border:none; border-radius:4px; cursor:pointer; }
+var currentLang = "ar";
+function setLang(lang){
+  currentLang = lang;
+  alert("تم تغيير اللغة");
+}
+ArouriLaw.ps
